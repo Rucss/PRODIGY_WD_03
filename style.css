@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://shorturl.at/oBL29');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}     
+.wrapper{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.title{
+    font-size: 70px;
+    margin: 20px auto 30px auto;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(249, 207, 207, 0.22) 0px 15px 12px;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border: 1px solid #d67813;
+    cursor: pointer;
+    line-height: 150px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
+}
+.status{
+    font-size: 70px;
+    color: white;
+    margin: 40px auto 20px auto;
+}
+.restart{
+    padding: 10px;
+    font-size: 45px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
